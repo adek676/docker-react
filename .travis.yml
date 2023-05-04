@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-north-1"
   app: "udemy-docker"
-  enf: "Udemy-docker-env"
+  env: "Udemy-docker-env"
   bucket_name: "elasticbeanstalk-eu-north-1-000935017569"
   bucket_path: "udemy-docker"
   on:
